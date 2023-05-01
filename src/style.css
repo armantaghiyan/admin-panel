@@ -1,0 +1,35 @@
+@import './css/fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply en-font;
+}
+
+.shadow {
+    box-shadow: 0 3px 9px 1px rgba(51, 48, 60, .03), 0 9px 8px rgba(51, 48, 60, .03), 0 1px 6px 4px rgba(51, 48, 60, .03);
+}
+
+.cart {
+    @apply bg-cart shadow rounded-md;
+}
+
+.title {
+    @apply text-gray-1 text-xl font-medium;
+}
+
+.mx-content {
+    max-width: 1440px;
+}
+
+div, p, span {
+    @apply text-gray-1 text-base text-base;
+}
+
+/** colors **/
+.text-gray-light {
+    opacity: .68;
+    @apply text-gray-1;
+}
