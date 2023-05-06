@@ -10,6 +10,8 @@ export default {
                 'gray': '#f8f7fa',
                 'gray-1': 'rgba(51, 48, 60, 0.87)',
                 'gray-2': 'rgba(51, 48, 60, 0.68)',
+                'gray-3': '#a19fa5',
+                'gray-4': '#cac9cc',
 
                 'divider': '#e9e8eb',
 

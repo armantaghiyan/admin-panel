@@ -1,7 +1,7 @@
 <template>
 
     <page-layout>
-        <h1>Vue app</h1>
+        <router-view/>
     </page-layout>
 
 </template>
