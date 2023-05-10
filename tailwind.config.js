@@ -35,9 +35,10 @@ export default {
 
                 'secondary': 'rgb(168, 170, 174)',
                 'secondary-light': '#f4f4f4',
-
-
             },
+            width: {
+                'content': 'calc(100% - 260px)',
+            }
         },
     },
     plugins: [],
